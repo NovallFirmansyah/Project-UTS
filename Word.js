@@ -1,198 +1,44 @@
 const wordList = [
     {
         word: "python",
-        pertanyaan: "programming language"
+        pertanyaan: "Apa nama bahasa pemrogaman yang mirip dengan hewan melata"
     },
     {
-        word: "guitar",
-        pertanyaan: "a musical instrument"
+        word: "syntax",
+        pertanyaan: "Nama Code dalam bahasa pemrogaman"
     },
     {
-        word: "aim",
-        pertanyaan: "a purpose or intention"
+        word: "insert",
+        pertanyaan: "Syntax untuk memasukkan data pada My.Sql adalah?"
     },
     {
-        word: "venus",
-        pertanyaan: "planet of our solar system"
-    },
-    {
-        word: "gold",
-        pertanyaan: "a yellow precious metal"
-    },
-    {
-        word: "ebay",
-        pertanyaan: "online shopping site"
-    },
-    {
-        word: "golang",
-        pertanyaan: "programming language"
-    },
-    {
-        word: "coding",
-        pertanyaan: "related to programming"
-    },
-    {
-        word: "matrix",
-        pertanyaan: "science fiction movie"
-    },
-    {
-        word: "bugs",
-        pertanyaan: "related to programming"
-    },
-    {
-        word: "avatar",
-        pertanyaan: "epic science fiction film"
-    },
-    {
-        word: "gif",
-        pertanyaan: "a file format for image"
-    },
-    {
-        word: "mental",
-        pertanyaan: "related to the mind"
-    },
-    {
-        word: "map",
-        pertanyaan: "diagram represent of an area"
-    },
-    {
-        word: "island",
-        pertanyaan: "land surrounded by water"
-    },
-    {
-        word: "hockey",
-        pertanyaan: "a famous outdoor game"
-    },
-    {
-        word: "chess",
-        pertanyaan: "related to a indoor game"
-    },
-    {
-        word: "viber",
-        pertanyaan: "a social media app"
-    },
-    {
-        word: "github",
-        pertanyaan: "code hosting platform"
-    },
-    {
-        word: "png",
-        pertanyaan: "a image file format"
-    },
-    {
-        word: "silver",
-        pertanyaan: "precious greyish-white metal"
-    },
-    {
-        word: "mobile",
-        pertanyaan: "an electronic device"
-    },
-    {
-        word: "gpu",
-        pertanyaan: "computer component"
-    },
-    {
-        word: "java",
-        pertanyaan: "programming language"
-    },
-    {
-        word: "google",
-        pertanyaan: "famous search engine"
-    },
-    {
-        word: "venice",
-        pertanyaan: "famous city of waters"
-    },
-    {
-        word: "excel",
-        pertanyaan: "microsoft product for windows"
-    },
-    {
-        word: "mysql",
-        pertanyaan: "a relational database system"
-    },
-    {
-        word: "nepal",
-        pertanyaan: "developing country name"
-    },
-    {
-        word: "flute",
-        pertanyaan: "a musical instrument"
-    },
-    {
-        word: "crypto",
-        pertanyaan: "related to cryptocurrency"
-    },
-    {
-        word: "tesla",
-        pertanyaan: "unit of magnetic flux density"
-    },
-    {
-        word: "mars",
-        pertanyaan: "planet of our solar system"
-    },
-    {
-        word: "proxy",
-        pertanyaan: "related to server application"
-    },
-    {
-        word: "email",
-        pertanyaan: "related to exchanging message"
+        word: "cpu",
+        pertanyaan: "Saya adalah perangkat keras yang menjadi otak dari komputer. Saya memproses instruksi, melakukan perhitungan, dan mengelola aliran data. Tanpa saya, komputer tidak akan dapat melakukan tugas apa pun. Apakah saya?"
     },
     {
         word: "html",
-        pertanyaan: "markup language for the web"
+        pertanyaan: "Saya adalah bahasa yang digunakan untuk membuat struktur dan tampilan dari sebuah halaman web. Saya digunakan untuk menentukan judul, teks, gambar, dan hyperlink di dalam dokumen web. Apakah saya?"
     },
     {
-        word: "air",
-        pertanyaan: "related to a gas"
+        word: "algoritma",
+        pertanyaan: "Saya adalah kumpulan perintah yang disusun dalam urutan tertentu untuk menyelesaikan tugas tertentu. Saya digunakan oleh komputer untuk menjalankan program atau melakukan operasi lainnya. Apakah saya?"
     },
     {
-        word: "idea",
-        pertanyaan: "a thought or suggestion"
+        word: "java",
+        pertanyaan: "Apa nama bahasa pemrogaman yang namanya mirip dengan salah satu pulau yang ada di indinosia"
     },
     {
-        word: "server",
-        pertanyaan: "related to computer or system"
+        word: "query",
+        pertanyaan: "apa nama lain source code di basis data"
     },
     {
-        word: "svg",
-        pertanyaan: "a vector image format"
+        word: "internet",
+        pertanyaan: "Saya adalah jaringan komputer yang luas, mencakup area geografis yang besar seperti kota, negara, atau bahkan seluruh dunia. Saya memungkinkan komputer di lokasi yang berbeda untuk terhubung dan berkomunikasi satu sama lain. Apakah saya?"
     },
     {
-        word: "jpeg",
-        pertanyaan: "a image file format"
+        word: "password",
+        pertanyaan: "Saya adalah kode rahasia yang digunakan untuk mengakses situs web atau layanan online tertentu. Saya terdiri dari kombinasi huruf, angka, dan karakter khusus. Orang harus memasukkan saya untuk masuk ke akun mereka. Apakah saya?"
     },
-    {
-        word: "search",
-        pertanyaan: "act to find something"
-    },
-    {
-        word: "key",
-        pertanyaan: "small piece of metal"
-    },
-    {
-        word: "egypt",
-        pertanyaan: "a country name"
-    },
-    {
-        word: "joker",
-        pertanyaan: "psychological thriller film"
-    },
-    {
-        word: "dubai",
-        pertanyaan: "developed country name"
-    },
-    {
-        word: "photo",
-        pertanyaan: "representation of person or scene"
-    },
-    {
-        word: "nile",
-        pertanyaan: "largest river in the world"
-    },
-    {
-        word: "rain",
-        pertanyaan: "related to a water"
-    },
+    
+    
 ]
