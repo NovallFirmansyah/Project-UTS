@@ -29,7 +29,7 @@ const wordList = [
     },
     {
         word: "query",
-        pertanyaan: "apa nama lain source code di basis data"
+        pertanyaan: "Apa nama lain source code di basis data"
     },
     {
         word: "internet",
