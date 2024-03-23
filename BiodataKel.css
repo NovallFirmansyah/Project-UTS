@@ -8,14 +8,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #31aafb, #8058ef);
-  font-size: larger;
+  background: url(Foto/Background.jpg);
+  background-position: top;
+  background-size: cover;
 }
 .navbar {
   width: 85%;
   margin: auto;
   padding: 35px 0;
   display: flex;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .3);
   align-items: center;
   justify-content: space-between;
 }
@@ -34,7 +36,7 @@ html, body {
   content: '';
   height: 3px;
   width: 0;
-  background: #0d00ff;
+  background: #ffffff;
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -42,6 +44,9 @@ html, body {
 }
 .navbar ul li:hover::after {
   width: 100%;
+}
+.navbar ul li a.active {
+  color: rgb(255, 0, 0);
 }
 div.box {
   margin-left: 7%;

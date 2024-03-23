@@ -4,41 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="Game.css">
-        <title>TEKATI</title>
+        <title>Game TEKATI</title>
     </head>
     <body>
         <div class="navbar">
             <h1 style="color: white;">TEKATI</h1><br>
             <ul>
-                <li><a href="FP_UTS.html">Beranda</a></li>
-                <li><a href="Biodata.html">Biodata anggota Kelompok</a></li>
-                <li><a href="Game.html">Game</a></li>    
+                <li><a href="Home game.html">kembali</a></li>
+                <li><a href="Game.html" class="active">Game sedang berlangsung</a></li>    
             </ul>
         </div>
-    </body>
-    <body1>
-        <div class="wrapper">
-            <h1>Jawab pertanyaan berikut</h1>
-            <div class="content">
-                <input type="text" class="typing-input" maxlength="1">
-                <div class="inputs">
+        <div class="body1">
+            <div class="wrapper">
+                <h1>Jawab pertanyaan berikut</h1>
+                <div class="content">
+                    <input type="text" class="typing-input" maxlength="1">
+                    <div class="inputs">
+                    </div>
+                    <div class="details">
+                        <p class="pertanyaan">Pertanyaan : <span></span></p>
+                        <p class="sisa-pertanyaan">sisa tebakan : <span>10</span></p>
+                        <p class="huruf-salah">Huruf yang salah : <span>a, b, c, d</span></p>
+                    </div>
+                    <button class="reset">Reset Game</button>
                 </div>
-                <div class="details">
-                    <p class="pertanyaan">Pertanyaan : <span></span></p>
-                    <p class="sisa-pertanyaan">sisa tebakan : <span>10</span></p>
-                    <p class="huruf-salah">Huruf yang salah : <span>a, b, c, d</span></p>
-                </div>
-                <button class="reset">Reset Game</button>
-
             </div>
-        </div>
-        </div>
-        <script src="Word.js"></script> 
+         </div>
+         <script src="Word.js"></script> 
         <script src="Script.js"></script>
-    </body1>
-    <body>
         <footer>
             <p>Hak Cipta &copy; 2024 Kelompok 4</p>
-        </footer> 
+        </footer>
     </body>
 </html>
