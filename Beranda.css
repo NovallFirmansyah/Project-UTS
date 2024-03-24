@@ -63,7 +63,7 @@ section {
     border-radius: 5px;
 }
 footer {
-    background-color: #333;
+    background-color: transparent;
     color: #fff;
     text-align: center;
     padding: 10px;
