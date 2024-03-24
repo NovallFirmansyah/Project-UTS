@@ -102,16 +102,7 @@ html, body {
 .content .details {
     margin: 20px 0 25px;
 }
-.content .reset {
-    color: white;
-    background: #8058ef;
-    width: 100%;
-    cursor: pointer;
-    border: none;
-    font-size: 17pt;
-    border-radius: 5px;
-    padding: 15px 0;
-}
+
 .details p {
     font-size: 19px;
     margin-bottom: 10px;
@@ -124,4 +115,20 @@ footer {
     position: relative;
     bottom: 0;
     width: 98,5%;
+}
+
+.content .timer {
+    font-family:Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background: #8058ef;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    font-size: 17pt;
+    border-radius: 5px;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
