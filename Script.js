@@ -12,7 +12,7 @@ function randomWord() {
     // Mendapatkan soal random dari wordlist
     let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
     word = ranItem.word; //Mendapatkan kata dari objek acak
-    maxGuesses = word.length >= 5 ? 8 : 6;
+    maxGuesses = word.length >= 5 ? 6 : 4;
     correctLetters = []; incorrectLetters = [];
     // Menampilkan Pertanyaan
     pertanyaan.innerText = ranItem.pertanyaan;
@@ -28,6 +28,7 @@ function randomWord() {
         inputs.innerHTML = html;
     }
 }
+// input dalam memainkan game
 function initGame(e) {
     let key = e.target.value.toLowerCase();
     if(key.match(/^[A-Za-z]+$/) && !incorrectLetters.includes(` ${key}`) && !correctLetters.includes(key)) {
