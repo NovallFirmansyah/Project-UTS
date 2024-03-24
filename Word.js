@@ -32,7 +32,7 @@ const wordList = [
     // 7
     {
         word: "java",
-        pertanyaan: "Apa nama bahasa pemrogaman yang namanya mirip dengan salah satu pulau yang ada di indinosia"
+        pertanyaan: "Apa nama bahasa pemrogaman yang namanya mirip dengan salah satu pulau yang ada di indonesia"
     },
     // 8
     {

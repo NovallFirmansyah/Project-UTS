@@ -16,6 +16,7 @@ html, body {
 .navbar {
     width: 85%;
     margin: auto;
+    color: #fff;
     padding: 35px 0;
     display: flex;
     text-shadow: 0 0 10px rgba(0, 0, 0, .3);
@@ -29,8 +30,8 @@ html, body {
     position: relative;
 }
 .navbar ul li a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
     text-transform: uppercase;
 }
 .navbar ul li::after {
