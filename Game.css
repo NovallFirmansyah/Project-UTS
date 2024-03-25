@@ -9,7 +9,7 @@ html, body {
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
-    background: url(Foto/Background.jpg);
+    background: url(Asset/Background.jpg);
     background-position: top;
     background-size: cover;
 }
