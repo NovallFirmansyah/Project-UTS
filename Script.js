@@ -17,7 +17,7 @@ if (currentIndex >= wordList.length) {
 function randomWord() {
     // Mendapatkan soal random dari wordlist
     let currentItem = wordList[currentIndex];
-    word = currentItem.word; // Mendapatkan kata dari objek acak
+    word = currentItem.word; // Mendapatkan kata dari objek
     maxGuesses = word.length >= 5 ? 3 : 3;
     correctLetters = [];
     incorrectLetters = [];
