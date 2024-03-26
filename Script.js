@@ -5,17 +5,21 @@ salahjawab = document.querySelector(".huruf-salah span"),
 Level= document.querySelector(".Level span"),
 timer= document.querySelector(".timer span"),
 typingInput = document.querySelector(".typing-input");
+const popupInfo = document.querySelector('.popup-congrats');
+const main = document.querySelector('.main');
+
 
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 let currentIndex = 0;
 let timerInterval = null; // Menyimpan ID interval timer
+
 
 if (currentIndex >= wordList.length) {
     currentIndex = 0; // Kembali ke awal
 }
 
 function randomWord() {
-    // Mendapatkan soal random dari wordlist
+    // Mendapatkan soal dari wordlist
     let currentItem = wordList[currentIndex];
     word = currentItem.word; // Mendapatkan kata dari objek
     maxGuesses = word.length >= 5 ? 3 : 3;
@@ -46,8 +50,7 @@ function randomWord() {
     countdown(); // Memulai timer kembali
 }
 
-// Input saat memainkan game
-let timeLeft = 30;
+// Function untuk mengatur timer
 function countdown() {
     timerInterval = setInterval(() => {
         if (timeLeft > 0) {
@@ -88,8 +91,9 @@ function initGame(e) {
 Silahkan Anda Melanjutkan Ke Level Selanjutnya`);
              if (currentIndex === wordList.length ) {
                 // Ini adalah soal terakhir, kembali ke halaman web lain
-                alert("Selamat Kamu Telah Berhasil Menyelesaikan Semua Level yang ada di permainan ini ANJOYYYYY")
-                window.location.href = 'Homegame.html'; // Ganti dengan URL halaman web lain yang diinginkan
+                popupInfo.classList.add('active');
+                main.classList.add('active');
+                clearInterval(timerInterval);
             } else {
                 // Bukan soal terakhir, lanjutkan ke soal berikutnya
                 randomWord(); // Memulai soal baru

@@ -9,9 +9,19 @@ html, body {
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
+    background: black;
+}
+.main {
     background: url(Asset/Background.jpg);
     background-position: top;
     background-size: cover;
+    pointer-events: auto;
+    transition: 0.5s ease;
+}
+.main.active {
+    background: url(https://i.gifer.com/XfQB.gif);
+    /* filter: blur(15px); */
+    pointer-events: none;
 }
 .navbar {
     width: 85%;
@@ -131,4 +141,58 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.popup-congrats {
+    border: 2px solid;
+    border-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.9);
+    width: 500px;
+    background: #5e23ff;
+    border-radius: 6px;
+    padding: 10px 25px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease;
+}
+.popup-congrats.active {
+    opacity: 100;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+.popup-congrats h2 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+}
+.popup-congrats .info-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    width: 130px;
+    height: 45px;
+    background-color: #5e23ff;
+    border: 2px solid;
+    outline: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.popup-congrats .info-btn:hover {
+    color: black;
+    background:#fff
+}
+.popup-congrats img {
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }

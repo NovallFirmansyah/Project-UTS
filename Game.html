@@ -7,37 +7,44 @@
         <title>Game TEKATI</title>
     </head>
     <body>
-        <div class="navbar">
-            <img style="width: 150px;" src="Asset/Logo1.png">
-            <ul>
-                <li><a href="Homegame.html">kembali</a></li>
-                <li><a href="Game.html" class="active">Game sedang berlangsung</a></li>    
-            </ul>
-        </div>
-        <div class="body1">
-            <div class="wrapper">
-                <h1>Jawab pertanyaan berikut</h1>
-                <div class="content">
-                    <input type="text" class="typing-input" maxlength="1">
-                    <div class="inputs">
-                    </div>
-                    <div class="details">
-                        <p class="Level">Level : <span></span></p>
-                        <p class="pertanyaan">Pertanyaan : <span></span></p>
-                        <p class="sisa-pertanyaan">sisa tebakan : <span></span></p>
-                        <p class="huruf-salah">Huruf yang salah : <span></span></p>
-                    </div>
-                    <p class="timer">Timer : <span></span></p>
-                </div>
+        <main class="main">
+            <div class="navbar">
+                <img style="width: 150px;" src="Asset/Logo1.png">
+                <ul>
+                    <li><a href="Homegame.html">kembali</a></li>
+                    <li><a href="Game.html" class="active">Game sedang berlangsung</a></li>    
+                </ul>
             </div>
+            <div class="body1">
+                <div class="wrapper">
+                    <h1>Jawab pertanyaan berikut</h1>
+                    <div class="content">
+                        <input type="text" class="typing-input" maxlength="1">
+                        <div class="inputs">
+                        </div>
+                        <div class="details">
+                            <p class="Level">Level : <span></span></p>
+                            <p class="pertanyaan">Pertanyaan : <span></span></p>
+                            <p class="sisa-pertanyaan">sisa tebakan : <span></span></p>
+                            <p class="huruf-salah">Huruf yang salah : <span></span></p>
+                        </div>
+                        <p class="timer">Timer : <span></span></p>
+                    </div>
+                </div>
+             </div> 
+             <footer>
+                <p>Hak Cipta &copy; 2024 Kelompok 4</p>
+            </footer>   
+        </main>
+         <div class="popup-congrats">
+            <h2 style="font-size:30pt;">Congrats You Are The Champion</h2>
+            <img src="https://media.giphy.com/media/3o6fJ1BM7R2EBRDnxK/giphy.gif?cid=790b76112tkyaqcabfj2n75hph4q68thui90d4htmn1wzfy9&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="https://giphy.com/">
+            <a href="Homegame.html" class="info-btn">Kembali</a>
          </div>
          <audio autoplay>
             <source src="Asset/Backsound.mp3">
           </audio>
          <script src="Word.js"></script> 
          <script src="Script.js"></script>
-         <footer>
-            <p>Hak Cipta &copy; 2024 Kelompok 4</p>
-        </footer>
     </body>
 </html>
